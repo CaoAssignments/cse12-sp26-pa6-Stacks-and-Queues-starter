@@ -16,13 +16,13 @@ complexity comparisons.
 ================================================================================
 
 Question 1: A developer implements a Stack ADT using a standard ArrayList
-instead of a Deque. For the push(element) operation, they use
-list.add(element). For the pop() operation, they use list.remove(list.size()
-- 1).
+(as opposed to a Deque like in this PA). For the push(element) operation, they
+use list.add(list.size(), element). For the pop() operation, they use
+list.remove(list.size() - 1).
 
-A) What is the worst-case Big-O time complexity of executing a sequence of N
-consecutive push operations, followed immediately by N consecutive pop
-operations?
+A) What is the overall worst-case Big-O time complexity of executing a
+sequence of N consecutive push operations, followed immediately by N
+consecutive pop operations?
 
 B) Explain exactly what happens in the underlying array during the pop
 sequence to justify your answer for Part A.
@@ -34,16 +34,17 @@ Max 400 characters.
 
 ================================================================================
 Question 2: A developer implements a Queue ADT using a standard ArrayList
-instead of a deuque. For the enqueue(element) operation, they use
-list.add(element). For the dequeue() operation, they use list.remove(0).
+(as opposed to a Deque like in this PA). For the enqueue(element) operation,
+they use list.add(list.size(), element). For the dequeue() operation, they
+use list.remove(0).
 
 A) What is the worst-case Big-O time complexity of executing a sequence of N
 consecutive enqueue operations, followed immediately by N consecutive dequeue
 operations?
 
 B) Explain exactly what happens in the underlying array during the dequeue
-sequence to justify your answer for Part A, and why this differs fundamentally
-from the Stack implementation above.
+sequence to justify your answer for Part A, and why this differs
+fundamentally from the Stack implementation above.
 
 Max 400 characters.
 --------------------------------------------------------------------------------
