@@ -57,7 +57,7 @@ Submit all of the following files to Gradescope
 
 #### Completing Task 2
 
-* Fill out and submit the **PA6 Task 2** form on Gradescope.
+* Submit **submission.txt** on Gradescope to PA6-Task2
 
 <br>
 
